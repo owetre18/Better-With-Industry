@@ -1,0 +1,94 @@
+{
+	"populate": {
+		"copper-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": true
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 5,
+			"vein-diameter": 5,
+			"vertical-density": 2,
+			"horizontal-density": 2,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"lead-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": true
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 5,
+			"vein-diameter": 5,
+			"vertical-density": 2,
+			"horizontal-density": 2,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"tin-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": true
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 5,
+			"vein-diameter": 5,
+			"vertical-density": 2,
+			"horizontal-density": 2,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}		
+	}
+}	

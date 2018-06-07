@@ -1,0 +1,78 @@
+{
+	"populate": {
+		"limestone": {
+			"enabled": true,	
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:limestone2",
+					"metadata": 7
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"marble": {
+		
+			"enabled": true,		
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:marble2",
+					"metadata": 7
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+		"basalt": {
+		
+			"enabled": true,	
+			"distribution": "underfluid",
+			"generator": {
+				"block": {
+					"name": "chisel:basalt2",
+					"metadata": 7
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

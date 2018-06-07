@@ -1,0 +1,52 @@
+{
+	"populate": {
+		"obsidian lava geode": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:lava",
+				"material": "minecraft:stone",
+				"crust": "minecraft:obsidian",
+				"hollow": true,
+				"filler": "minecraft:lava"
+				}
+			"min-height": 5
+			"max-height": 30
+			"cluster-count": 1
+			"chunk-chance": 100
+		},	
+		"obsidian diamond geode": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:diamond_ore",
+				"material": "minecraft:stone",
+				"crust": "minecraft:obsidian",
+				"hollow": true,
+				"filler": "minecraft:diamond_ore"
+				}
+			"min-height": 5
+			"max-height": 30
+			"cluster-count": 1
+			"chunk-chance": 400
+		},
+		"obsidian emerald geode": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:emerald_ore",
+				"material": "minecraft:stone",
+				"crust": "minecraft:obsidian",
+				"hollow": true,
+				"filler": "minecraft:emerald_ore"
+				}
+			"min-height": 5
+			"max-height": 30
+			"cluster-count": 1
+			"chunk-chance": 800
+		}		
+	}	
+}		

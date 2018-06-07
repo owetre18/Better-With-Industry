@@ -1,0 +1,85 @@
+{
+	"populate": {
+		"coal-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": false
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 30,
+			"vein-diameter": 30,
+			"vertical-density": 5,
+			"horizontal-density": 5,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iron-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": true
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 5,
+			"vein-diameter": 5,
+			"vertical-density": 2,
+			"horizontal-density": 2,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"gold-motherlode": {
+			"enabled": true,
+			"distribution": "fractal",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 10,
+				"type": "large-vein",
+				"sparse": true
+			},	
+			"cluster-count": 300,
+			"chunk-chance": 300,
+			"min-height": 25,
+			"vein-height": 5,
+			"vein-diameter": 3,
+			"vertical-density": 5,
+			"horizontal-density": 5,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}		
+	}
+}	
