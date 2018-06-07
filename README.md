@@ -8,10 +8,6 @@ Better With Mods
 
 Industrial Craft
 
-Geolosys
-
 # Other Mods to Note
-
-Ex Nihilo: Creatio
 
 Survivalist
